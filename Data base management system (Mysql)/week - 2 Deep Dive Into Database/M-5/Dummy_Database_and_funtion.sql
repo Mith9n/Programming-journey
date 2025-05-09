@@ -2675,3 +2675,14 @@ select *  from employees order by  salary  desc limit 4,5;
 
 select *  from employees order by  salary  desc limit 5 offset 4;
 
+-- function -- 
+select first_name , last_name ,salary from employees;
+
+select max(salary) from  employees;
+select min(salary) from  employees;
+select count(salary) from  employees;
+select avg(salary) from  employees;
+select count(manager_id) from employees;
+--  count * means all rows ... 
+select count(*) from employees;
+
