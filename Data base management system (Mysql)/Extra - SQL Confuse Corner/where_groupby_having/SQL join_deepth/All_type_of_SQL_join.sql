@@ -66,4 +66,27 @@ select * from students as s
 right join  departments as d
 on s.student_id = d.student_id ;
 
+ -- for exclusive join  
+create table freshman (
+	id int ,
+    name varchar(50)
+);
+create table course(
+	id int ,
+    subject varchar (50)
+);
+insert into freshman ( id , name ) values (101,"safa"),(102,"rafa"),(103,"kasfia");
+insert into course (id,subject)values (101,"CSE"),(105,"EEE"),(105,"FSE"),(104,"BioTech"),(105,"PH");
+
+-- Exclusive join  (left) 
+ select * from freshman 
+ left join course
+ on freshman.id = course.id 
+ where course.id is null;
+ 
+ -- Right exclusive 
+select * from freshman 
+right join course
+on freshman.id = course.id 
+where freshman.id is null;
      
