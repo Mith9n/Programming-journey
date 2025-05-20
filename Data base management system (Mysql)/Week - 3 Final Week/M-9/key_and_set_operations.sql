@@ -36,9 +36,6 @@ INSERT INTO course_enroll (course_name, student_id) VALUES
 ('Machine Learning', 1017),
 ('Database Systems', 1013);
 
-
-SELECT * FROM pi_classroom;
-
 -- Course Enrollment (With JOIN)
 
 SELECT
@@ -52,3 +49,5 @@ JOIN
     course_enroll
 ON
     pi_classroom.id = course_enroll.student_id;
+
+SELECT * FROM pi_classroom;
