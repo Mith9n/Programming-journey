@@ -5,7 +5,7 @@ try:
     mydb = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="mysql"  # 👉 এখানে যদি তোমার অন্য পাসওয়ার্ড হয়, সেটা দাও
+        password="mysql"  # 👉 use your sql password;
     )
 
     if mydb.is_connected():
