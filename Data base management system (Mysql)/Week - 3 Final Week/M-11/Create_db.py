@@ -19,6 +19,7 @@ try:
 
 except Error as e:
     print("❌ Error:", e)
+    
 
 finally:
     if mydb.is_connected():
