@@ -75,6 +75,8 @@ create table course(
 	id int ,
     subject varchar (50)
 );
+
+
 insert into freshman ( id , name ) values (101,"safa"),(102,"rafa"),(103,"kasfia");
 insert into course (id,subject)values (101,"CSE"),(105,"EEE"),(105,"FSE"),(104,"BioTech"),(105,"PH");
 
