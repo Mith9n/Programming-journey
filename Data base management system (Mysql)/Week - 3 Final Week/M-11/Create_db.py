@@ -17,6 +17,7 @@ try:
         mycursor.execute(f"CREATE DATABASE {db_name}")
         print(f"🎉 Database '{db_name}' created successfully!")
 
+
 except Error as e:
     print("❌ Error:", e)
     
@@ -26,3 +27,5 @@ finally:
         mycursor.close()
         mydb.close()
         print("🔒 MySQL connection closed")
+
+
