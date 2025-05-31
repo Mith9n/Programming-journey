@@ -17,7 +17,6 @@ from employees join departments using (department_id) ;
 
 -- Inner, left , right , cross join 
 
-
 -- self join ( only one table )  -- employee and his/her manager
 
 select m.first_name , e.first_name 
