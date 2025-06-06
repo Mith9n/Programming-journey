@@ -11,4 +11,8 @@ for (var i = 0; i < array.length; i++) {
 
 for (var i = 0; i < list_type_arr.length; i++) {
     console.log(list_type_arr[i]);
+    
 }
+
+
+
