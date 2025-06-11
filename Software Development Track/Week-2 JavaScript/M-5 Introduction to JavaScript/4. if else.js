@@ -18,3 +18,4 @@ if ( num > 12){
     console.log(num,"is_small");
 }
 
+
