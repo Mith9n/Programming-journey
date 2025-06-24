@@ -1,6 +1,6 @@
 var array = [1, 2, 3, 4, 5];
 
-var list_type_arr = ["Maruf", 21, 2024000017, 17, "Dhaka,Gazipur"];
+var list_type_arr = ["Maruf", 21, 2024000017, 17, " Dhaka,Gazipur "];
 
 console.log(array);
 console.log(list_type_arr);
